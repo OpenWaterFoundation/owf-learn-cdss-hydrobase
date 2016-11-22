@@ -1,2 +1,3 @@
 # owf-learn-cdss-hydrobase
-Open Water Foundation training materials for Colorado's Decision Support Systems (CSSS) HydroBase Database
+
+Training website for CDSS HydroBase (static MkDocs website)
