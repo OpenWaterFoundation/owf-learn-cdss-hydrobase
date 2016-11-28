@@ -1,7 +1,7 @@
 # CDSS HydroBase / Primary Datasets
 
 HydroBase includes a number of important datasets, represented as [tables](https://en.wikipedia.org/wiki/Table_(database))
-and [views](https://en.wikipedia.org/wiki/View_(SQL) in the database.
+and [views](https://en.wikipedia.org/wiki/View_(SQL)) in the database.
 The names of the tables and the relationships between tables may not be intuitive,
 and it may not be obvious how the data can be used in analysis and modeling.
 

@@ -1,0 +1,3 @@
+ReadTableFromDataStore(DataStore="HydroBase-HBGuest",Top=10,Sql="select * from vw_cdss_netamts where wr_name like '%peoples%' and div = 3",TableID="x")
+ReadTableFromDataStore(DataStore="HydroBase-HBGuest",Top=10,Sql="select * from vw_cdss_netamts where order_no != 0",TableID="order_no")
+ReadTableFromDataStore(DataStore="HydroBase-HBGuest",Top=10,Sql="select count(*) from vw_cdss_netamts",TableID="count")

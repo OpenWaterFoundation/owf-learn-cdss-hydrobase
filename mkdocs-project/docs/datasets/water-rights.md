@@ -42,20 +42,20 @@ Before describing data examples using HydroBase data, it is helpful to define a 
 The terms are listed in alphabetical order below to serve as a reference.
 However, conceptually, it is helpful to read the definitions in the following order:
 
-* Location - understand how rights are tied to a Structure location
+* **Location** - understand how rights are tied to a Structure location
 	+ [Water District Identifier (WDID)](#water-district-identifier-wdid)
 	+ **TODO smalers, 2016-18-20 need to discuss alternate points and exchanges**
-* Water Source - understand what water body the water is taken from
+* **Water Source** - understand what water body the water is taken from
 	+ [Water Source](#water-source)
-* Priority Date - understand how dates are handled to determine a priority
+* **Priority Date** - understand how dates are handled to determine a priority
 	+ [Appropriation, Adjudication, and Previous Adjudication Dates](#appropriation-adjudication-and-previous-adjudication-dates) - dates
 	for beneficial use and court approval of right
 	+ [Administration Number](#administration-number) - a number that facilitates sorting water right priorities for analysis and modeling
 	+ [Absolute and Conditional Rights](#absolute-and-conditional-rights) - indicate whether water right can be used now, or a placeholder for future development
 	+ [Order Number](#order-number) - an additional number that defines priority order, when a tie-breaker is needed
-* Use - understand the use type that a decree allows
+* **Use** - understand the use type that a decree allows
 	+ [Use](#use) - the use(s) that a decree allows
-* Amount - understand the amount of the decree
+* **Amount** - understand the amount of the decree
 	+ **TODO smalers 2016-18-20 need to discuss decree, especially for diversions, wells, reservoirs, instream flow, etc.**
 	+ [Units](#units) - the data units for the decree
 
