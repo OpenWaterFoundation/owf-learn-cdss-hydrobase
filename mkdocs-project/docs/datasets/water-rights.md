@@ -1,4 +1,4 @@
-# HydroBase Primary Dataset / Water Rights
+# HydroBase Primary Dataset / Water Rights #
 
 Water rights in HydroBase are accessible by two primary database views (a view shows data from one or more tables) :
 
@@ -36,7 +36,7 @@ The following resources are useful to understand HydroBase water rights datasets
 The following sections provide additional background on water right data definitions
 for transaction and net amount water rights.
 
-## Water Right Terminology and Definitions
+## Water Right Terminology and Definitions ##
 
 Before describing data examples using HydroBase data, it is helpful to define a few terms, which will be used in the data example narrative.
 The terms are listed in alphabetical order below to serve as a reference.
@@ -63,7 +63,7 @@ See also the following important concepts:
 
 * [Unique Identifier](#unique-identifier)
 
-### Absolute and Conditional Rights
+### Absolute and Conditional Rights ###
 
 Water rights can be conditional or absolute.  A conditional water right can be thought of as an intent to develop water but it has not yet been developed
 and put to beneficial use.  Examples are storage rights for reservoirs that have not been built, and for industries like oil shale that have not
@@ -76,14 +76,14 @@ Absolute rights can be lost (abandoned) if they are not used as intended.
 
 **TODO smalers 2016-11-18 need to add references to authoritative definitions.**
 
-### Administration Number
+### Administration Number ###
 
 The administration number numerically combines the appropriation date and previous adjudication date to calculate
 a single number that can be used in analysis and modeling.
 The administration number is a number with decimal part that always has five digits on the right side, for example `.12345`.
 From the HydroBase data dictionary:
 
-*A calculated number developed by the Division of Water Resources to
+* *A calculated number developed by the Division of Water Resources to
 provide a simple and efficient method of ranking decrees in order of
 seniority. Computed as follow:*
 
@@ -107,7 +107,7 @@ conversion between dates and administration number.
 ![StateDMI Administration Number Calculator](water-rights-assets/statedmi-administrationnumber-calculator.png)
 
 
-### Appropriation, Adjudication, and Previous Adjudication Dates
+### Appropriation, Adjudication, and Previous Adjudication Dates ###
 
 The *appropriation date* corresponds to the date of proven beneficial use.
 Old rights may have been assigned an appropriation date after the fact based on demonstrated application of the water,
@@ -134,10 +134,9 @@ an earlier adjudication process for the water right.
 This is used to compute the *administration number* (see below).
 From the HydroBase data dictionary:
 
-*The previous adjudication date field allows water rights to be ordered by
+* *The previous adjudication date field allows water rights to be ordered by
 priority with all rights awarded subsequent to a previous adjudication being
 junior to those previously awarded regardless of their appropriation dates.*
-
 * *Original adjudication: There is no previous adjudication date and
 thus this field is blank.*
 * *Pre-1969 adjudications: The previous adjudication date is the
@@ -149,7 +148,7 @@ Multiple water rights can be decreed for the same Structure, each with different
 For example, a ditch might have an original senior water right, and a more junior water right that was applied for at a later date
 when more acreage was developed.
 
-### Order Number
+### Order Number ###
 
 The order number is a simple integer that is used as a tie breaker when all other priority information for a water right result in the same
 priority.  From the HydroBase data dictonary:
@@ -169,7 +168,7 @@ The above actually returns 3578 rights (163774 total rights) at the time of this
 **TODO smalers 2016-11-20 Need to expand the above, for example listing non-zero order number by water district and explain
 some concreate examples of when order number is used.**
 
-### Unique Identifier
+### Unique Identifier ###
 
 To uniquely identify a water right requires using the following data parts.
 Multiple water rights with different priority dates can be associated with one structure,
@@ -191,7 +190,7 @@ For example reservoir rights use acft units and are stored in one file and diver
 therefore, there is not a need to have units the model identifiers.
 The StateDMI CDSS software is used to create StateMod data files and addresses mapping HydroBase data to StateMod files.
 
-### Units
+### Units ###
 
 The data units for water rights indicate how the water right decree amount is measured.  For example, a diversion right off of a river is typically 
 measured in cubic feet per second (cfs).  A storage right for a reservoir is typically measured in acre-feet (acft).
@@ -200,11 +199,11 @@ HydroBase water right tables.
 
 **TODO smalers 2016-11-20 need to explain with some examples.**
 
-### Use
+### Use ###
 
 **TODO smalers 2016-11-18 need to describe and link to diversion record coding.**
 
-### Water District Identifier (WDID)
+### Water District Identifier (WDID) ###
 
 Each Water Right must be assigned to a Structure that has a physical location.
 Each Structure has a "water district identifier" or WDID.
@@ -225,7 +224,7 @@ The WDID is often used in CDSS modeling, including identifying Structures in mod
 Note that HydroBase tables also will contain columns like `structure_num` which is an internal database identifier.
 These columns can be used to relate tables, but should never be used in human-facing datasets such as for modeling.
 
-### Water Source
+### Water Source ###
 
 The Water Right has a water source.  In the days before geographic information systems (GIS), the source corresponded to a stream name written on a paper map,
 and the data might not be very accurate.
@@ -241,15 +240,15 @@ A challenge with water sources is that names of water features are not unique si
 
 **TODO smalers 2016-11-18 need to discuss the `wd_stream_name` in HydroBase and the Source Water Route Framework layer, which uses unique identifiers from USGS NHD dataset**.
 
-## Transaction Water Right Examples
+## Transaction Water Right Examples ##
 
 **TODO smalers 2018-11-18 need to fill in**
 
-## Net Amount Water Rights Examples
+## Net Amount Water Rights Examples ##
 
 These examples illustrate the Net Amount water right dataset.
 
-### Oldest Water Right in Colorado
+### Oldest Water Right in Colorado ###
 
 This right can be queried from HydroBase with the following SQL statement (for example using TSTool ReadTableFromDataStore command).
 
@@ -306,4 +305,3 @@ The output from TSTool is as follows (splitting the wide table into sections to 
 **TODO smalers 2018-11-20 Need to enhanced TSTool to reformat rows as list of properties, for use in documentation**
 
 **TODO smalers 2018-11-20 Need to do screen shot of HydroBase web interface and explain steps to get there**
-

@@ -1,4 +1,4 @@
-# Learn CDSS HydroBase
+# Learn CDSS HydroBase #
 
 This documentation provides training resources for Colorado's Decision Support Systems (CDSS) HydroBase database.
 
@@ -20,7 +20,7 @@ necessary to do the work of State water agencies.  Examples of data maintained i
 **This documentation is a work in progress and will contain notes for inserts until resources can
 be devoted to filling in blanks.**
 
-## Colorado's Decision Support Systems
+## Colorado's Decision Support Systems ##
 
 Colorado's Decision Support Systems ([CDSS, cdss.state.co.us](http://cdss.state.co.us))
 has been developed to answer important questions about Colorado's water resources.
@@ -35,7 +35,7 @@ The general term "HydroBase" refers to the DWR's database for Colorado's real-ti
 
 **This documentation focuses on the CDSS HydroBase and variations such as Colorado Informtion Marketplace dataset exports from HydroBase.**
 
-## Open Water Foundation
+## Open Water Foundation ##
 
 The Open Water Foundation (OWF, [openwaterfoundation.org](http://openwaterfoundation.org)) is a 501(c)3 social enterprise
 nonprofit that focuses on developing and supporting open source software to make better
@@ -46,14 +46,14 @@ OWF has created this website as a prototype to facilitate helping people underst
 
 See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
-## How to Use this Documentation
+## How to Use this Documentation ##
 
 The documentation is organized in the order of basic concepts and then topics relevant to developing and supporting StateMod.
 
 This website is intended as a companion to the StateMod source code repository and is the source of
 information for software developers that support and enhance StateMod.
 
-## Other HydroBase Learning Resources
+## Other HydroBase Learning Resources ##
 
 The following are additional HydroBase learning resources:
 
@@ -61,17 +61,17 @@ The following are additional HydroBase learning resources:
 * **TODO smalers 2016-11-20 need to hook in navigable HTML data dictionary, such as produced by TSTool**
 * [A Hands-on Introduction to Conducting Water Rights Investigations](http://www.coloradowatertrust.org/resources-library//c/technical-resources) - Wilson Water Group training to Colorado Water Trust
 
-## License
+## License ##
 
 The license for this documentation is being determined in the CDSS open source project.
 More information will be provided later.
 However, at this time because this site is a prototype, there are no restrictions for use.
 
-## Source Repository on GitHub
+## Source Repository on GitHub ##
 
 The source files for this documentation are maintained in a GitHub repository: [owf-learn-cdss-hydrobase](https://github.com/OpenWaterFoundation/owf-learn-cdss-hydrobase).
 
-## MkDocs
+## Release Notes ##
 
-This documentation is prepared using MkDocs.
-For full MkDocs documentation visit [mkdocs.org](http://mkdocs.org).
+This documentation was last updated 2017-10-21.
+See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-cdss-hydrobase#release-notes).
