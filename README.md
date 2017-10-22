@@ -4,7 +4,7 @@ This repository contains the [Open Water Foundation (OWF)](http://openwaterfound
 which provides information about using HydroBase.
 The documentation is written for the layperson in order to encourage use of HydroBase.
 
-See the deployed [OWF / Learn QGIS](http://learn.openwaterfoundation.org/owf-learn-cdss-hydrobase/) documentation.
+See the deployed [OWF / Learn CDSS HydroBase](http://learn.openwaterfoundation.org/owf-learn-cdss-hydrobase/) documentation.
 
 ## Repository Contents ##
 
