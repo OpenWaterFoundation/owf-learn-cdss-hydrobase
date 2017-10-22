@@ -1,4 +1,4 @@
-# CDSS HydroBase / Tables / Overview
+# CDSS HydroBase / Tables / Overview #
 
 HydroBase is a [relational database](https://en.wikipedia.org/wiki/Relational_database), which more specifically uses
 the [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server) technology.
@@ -16,7 +16,7 @@ Various tools are useful, but can be overwhelming without an understanding of te
 This documentation attempts to facilitate understanding HydroBase data so that the available HydroBase tools and datasets can be used more effectively.
 In this context, a "dataset" is a table of related data, such as water rights and diversion structures.
 
-## Online HydroBaes Resources
+## Online HydroBaes Resources ##
 
 HydroBase provides data for the following online resources, including:
 
@@ -28,7 +28,7 @@ HydroBase provides data for the following online resources, including:
 The DWR online forms allow interactive searches.  The web services facilitate automated downloads and processing.
 The Colorado Information Marketplace provides interactive searches and download capabilities, as well as some visualization tools.
 
-## Downloading and Using HydroBase
+## Downloading and Using HydroBase ##
 
 HydroBase is also available for download, with archives maintained by the Open Water Foundation, to facilitate software development and CDSS modeling
 (this is not the authoritative source of all HydroBase versions):

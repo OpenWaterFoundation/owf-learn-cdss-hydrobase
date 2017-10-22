@@ -1,8 +1,8 @@
-# CDSS HydroBase / Accessing HydroBase
+# CDSS HydroBase / Accessing HydroBase #
 
 HydroBase can be accessed multiple ways, as described in the following sections.
 
-## Online HydroBase Resources
+## Online HydroBase Resources ##
 
 HydroBase provides data for the following online resources, including:
 
@@ -13,7 +13,7 @@ on-line query and display tools
 * Spatial data layers exported for the [CDSS Map Viewer](http://cdss.state.co.us/onlineTools/Pages/MapViewer.aspx) and data tools accessible from maps - map
 displays using geographic information system tools
 
-## Downloading and Using HydroBase
+## Downloading and Using HydroBase ##
 
 **Note:  Local installation of HydroBase puts the burden of troubleshooting on the user and State support
 is limited.  The OpenCDSS project can help improve this process but users such as consulting companies may need to pay for support from
@@ -32,7 +32,7 @@ Once downloaded and installed on a computer, HydroBase can be accessed by CDSS s
 
 **TODO smalers 2016-11-18 Need to fill this out with more background on the tools**
 
-## Use TSTool to Query HydroBase
+## Use TSTool to Query HydroBase ##
 
 The CDSS TSTool software is useful for performing free-form queries on HydroBase because TSTool
 provides a simple, standard interface to the HydroBase database (and other databases).
