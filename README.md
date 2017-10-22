@@ -63,4 +63,4 @@ The following release notes indicate the update history for documentation, with 
 if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
 
 * 2017-10-21 [1] - switch to Material theme, update documentation based on experience.
-* 2017-12-28 - initial version.
+* 2016-11-22 - initial version.
